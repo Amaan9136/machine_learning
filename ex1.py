@@ -9,13 +9,5 @@ file = pandas.read_csv("iris.csv")
 X=file.iloc[:,:-1].values
 y=file.iloc[:,-1].values
 
-
-xtrain,xtest,ytrain,ytest = train_test_split(X,y)
-
-# Printing the matrix of features and the dependent variable vector
-print(xtrain)
-print(xtest)
-print(ytrain)
-print(ytest)
 print(X) # matrix 
 print(y) # vector
