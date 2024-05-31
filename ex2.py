@@ -1,8 +1,9 @@
+# SimpleImputer to impute the missing data
+
 # Importing the necessary libraries
 import numpy as np
 import pandas as pd
 from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
 
 # Load the dataset
 file = pd.read_csv('pima-indians-diabetes.csv')

@@ -1,6 +1,7 @@
+# Splitting (X-independent ) & (y-dependent) variables
+
 # Importing the necessary libraries
 import pandas
-from sklearn.model_selection import train_test_split
 
 # Loading the Iris dataset
 file = pandas.read_csv("iris.csv")
