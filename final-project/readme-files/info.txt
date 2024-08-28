@@ -1,0 +1,7 @@
+So-VITS-SVC is an open source software that allows users to train a neural network on a singer's 
+voice to create songs using AI-generated vocals. It uses a singing voice conversion model that extracts speech features 
+from the source audio using a SoftVC content encoder. These feature vectors are then fed directly into VITS without
+converting to a text-based intermediate representation
+
+(here used to clone voice)
+
