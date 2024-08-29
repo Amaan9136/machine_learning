@@ -4,7 +4,7 @@ from the source audio using a SoftVC content encoder. These feature vectors are 
 converting to a text-based intermediate representation
 
 (here used to clone voice)
-
+ 
 ----------------------------------
 Real-Time-Voice-Cloning - rtvc
 
