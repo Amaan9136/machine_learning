@@ -10,3 +10,4 @@ Real-Time-Voice-Cloning - rtvc
 
 ffmpeg_path = r"C:\Users\Amaan M k\anaconda3\pkgs\ffmpeg-4.2.2-he774522_0\Library\bin\ffmpeg.exe"
 ffprobe_path = r"C:\Users\Amaan M k\anaconda3\pkgs\ffmpeg-4.2.2-he774522_0\Library\bin\ffprobe.exe"
+ 
