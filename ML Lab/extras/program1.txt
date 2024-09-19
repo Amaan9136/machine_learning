@@ -1,0 +1,24 @@
+import csv
+
+with open('lab1b.csv', 'r') as f:
+    reader=csv.reader(f)
+    your_list=list(reader)
+
+h = ['0', '0', '0', '0', '0', '0']
+
+for i in your_list:
+    print(i)
+    if i[-1]=="yes":
+        j = 0
+        for x in i:
+            if x !="yes":
+                if x!= h[j] and h[j]=="0":
+                    h[j] = x
+                elif x!=h[j] and h[j]!='0':
+                    h[j] = '?'
+                else:
+                    pass
+                j += 1
+
+print("Most specific hypothesis:")
+print(h)

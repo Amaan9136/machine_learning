@@ -1,0 +1,10 @@
+# run in env's terminal (base)
+
+pip install speechrecognition googletrans==4.0.0-rc1 gtts
+pip install torch==2.2.1
+conda install cudatoolkit
+
+git clone https://github.com/svc-develop-team/so-vits-svc
+
+cd so-vits-svc
+pip install -r requirements.txt
